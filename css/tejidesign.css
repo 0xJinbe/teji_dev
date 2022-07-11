@@ -675,8 +675,20 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .rightwrapper {
+    margin-top: 0px;
+  }
+
   .heading {
     font-size: 2.5em;
+  }
+
+  .blacktext {
+    font-size: 1em;
+  }
+
+  .blackcapitalizedtext {
+    font-size: 1em;
   }
 
   .absoluteleft-bottom {
