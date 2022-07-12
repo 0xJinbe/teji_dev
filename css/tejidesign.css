@@ -70,7 +70,7 @@ body {
   object-fit: fill;
 }
 
-.div-block {
+.center {
   position: relative;
   top: 20px;
   width: 100px;
@@ -80,25 +80,21 @@ body {
   background-size: cover;
 }
 
-.div-block-2 {
+.left {
   margin-left: 20px;
 }
 
-.div-block-3 {
+.right {
   margin-right: 20px;
 }
 
 .link {
+  padding-right: 80px;
+  padding-left: 80px;
   color: #000;
-  font-size: 18px;
+  font-size: 1em;
+  line-height: 1;
   text-decoration: none;
-}
-
-.paragraph {
-  margin-bottom: 0px;
-  margin-left: 20px;
-  line-height: 100%;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -337,38 +333,6 @@ body {
   align-items: stretch;
 }
 
-.wrapperbuttonup {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 80%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  text-align: center;
-}
-
-.buttonaddtocart {
-  margin-bottom: 10px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  border: 2px solid #000;
-  background-color: rgba(255, 255, 255, 0);
-  color: #000;
-}
-
 .wrapperbuttondown {
   display: -webkit-box;
   display: -webkit-flex;
@@ -399,6 +363,7 @@ body {
   border: 2px solid #000;
   background-color: #000;
   color: #0cbdff;
+  text-transform: uppercase;
 }
 
 .blackcapitalizedtext {
@@ -668,6 +633,19 @@ body {
   z-index: 10;
 }
 
+.button {
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
+  background-color: #f6ff01;
+  color: #000;
+  font-size: 1em;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 991px) {
   .heading {
     font-size: 3.5em;
@@ -675,6 +653,11 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .link {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
   .rightwrapper {
     margin-top: 0px;
   }
@@ -703,9 +686,19 @@ body {
     width: 541px;
     height: 233px;
   }
+
+  .button {
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .link {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 0.8em;
+  }
+
   .leftblock {
     display: none;
   }
@@ -721,6 +714,12 @@ body {
   .html-embed {
     width: 541px;
     height: 233px;
+  }
+
+  .button {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 0.6em;
   }
 }
 
