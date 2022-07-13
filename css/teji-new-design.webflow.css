@@ -69,7 +69,7 @@
 
 .link-block {
   position: relative;
-  z-index: 0;
+  z-index: 2;
 }
 
 .mid {
@@ -321,7 +321,10 @@
   top: auto;
   right: auto;
   bottom: 17%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 70vw;
   height: 50vh;
   -webkit-box-pack: center;
@@ -335,6 +338,7 @@
   border: 7px solid #000;
   border-radius: 20px;
   background-color: #f6ff01;
+  opacity: 1;
 }
 
 .rightpopup {
