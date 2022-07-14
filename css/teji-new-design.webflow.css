@@ -399,6 +399,7 @@ body {
 
 .paragraph {
   max-width: 45ch;
+  font-size: 16px;
 }
 
 .button {
@@ -432,6 +433,7 @@ body {
 
 .bold-text-2 {
   max-width: 45ch;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -443,6 +445,10 @@ body {
 @media screen and (max-width: 991px) {
   .popup {
     width: 90vw;
+  }
+
+  .subheading {
+    margin-bottom: 20px;
   }
 
   .paragraph {
@@ -472,8 +478,40 @@ body {
     height: 70vh;
   }
 
+  .rightpopup {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 45px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .leftpopup {
+    display: none;
+  }
+
   .paragraph {
-    max-width: 30ch;
+    max-width: 40ch;
+    text-align: center;
+  }
+
+  .button {
+    right: auto;
+    margin-right: 0px;
+  }
+
+  .bold-text-2 {
+    max-width: 40ch;
+    font-size: 18px;
   }
 }
 
@@ -501,6 +539,10 @@ body {
 
   .leftpopup {
     display: none;
+  }
+
+  .heading {
+    font-size: 28px;
   }
 }
 
