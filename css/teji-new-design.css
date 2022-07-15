@@ -829,6 +829,10 @@ body {
     display: none;
   }
 
+  .stamp {
+    top: 120px;
+  }
+
   .html-embed {
     width: 541px;
     height: 233px;
