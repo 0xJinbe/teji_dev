@@ -265,6 +265,8 @@ body {
 }
 
 .paragraph-description {
+  max-width: 45ch;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -328,10 +330,7 @@ body {
   top: auto;
   right: auto;
   bottom: 17%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 60vw;
   height: 50vh;
   -webkit-box-pack: center;
@@ -434,6 +433,49 @@ body {
 .bold-text-2 {
   max-width: 45ch;
   font-size: 16px;
+}
+
+.connectwalletwrapper {
+  position: absolute;
+  left: auto;
+  top: 15%;
+  right: 0%;
+  bottom: auto;
+  margin-top: 0px;
+  margin-right: 40px;
+}
+
+.buttonconnectwallet {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: #f6ff01;
+  color: #000;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.socialiconswrapper {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  height: 70px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1280px) {
