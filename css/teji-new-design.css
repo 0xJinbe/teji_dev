@@ -330,7 +330,10 @@ body {
   top: auto;
   right: auto;
   bottom: 17%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 60vw;
   height: 50vh;
   -webkit-box-pack: center;
@@ -486,13 +489,65 @@ body {
   letter-spacing: 2px;
 }
 
+.div-block {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 40%;
+  padding-right: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+  color: #000;
+}
+
+.headingnumbers {
+  color: #000;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.subheadingnumbers {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 1280px) {
+  .paragraph-description {
+    max-width: 50ch;
+  }
+
   .popup {
     width: 50vw;
   }
 }
 
 @media screen and (max-width: 991px) {
+  .absoluteleft-bottom {
+    display: none;
+  }
+
   .popup {
     width: 90vw;
   }
@@ -507,6 +562,10 @@ body {
 
   .bold-text-2 {
     max-width: 35ch;
+  }
+
+  .subheadingnumbers {
+    margin-bottom: 20px;
   }
 }
 
@@ -592,6 +651,10 @@ body {
   }
 
   .heading {
+    font-size: 28px;
+  }
+
+  .headingnumbers {
     font-size: 28px;
   }
 }
