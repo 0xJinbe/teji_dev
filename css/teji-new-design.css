@@ -341,7 +341,7 @@ body {
   left: auto;
   top: auto;
   right: auto;
-  bottom: 15%;
+  bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -711,7 +711,20 @@ body {
     display: none;
   }
 
+  .html-embed {
+    top: 150px;
+  }
+
+  .imgtop1 {
+    display: none;
+  }
+
+  .imagetop2 {
+    display: none;
+  }
+
   .popup {
+    bottom: auto;
     width: 90vw;
     height: 70vh;
   }
@@ -753,6 +766,7 @@ body {
   }
 
   .popup {
+    bottom: auto;
     height: 80vh;
   }
 
@@ -821,6 +835,7 @@ body {
   }
 
   .popup {
+    bottom: auto;
     height: 80vh;
   }
 
