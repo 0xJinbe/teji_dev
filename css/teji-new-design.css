@@ -712,15 +712,15 @@ body {
   }
 
   .html-embed {
-    top: 50px;
+    top: 40px;
   }
 
   .imgtop1 {
-    display: none;
+    display: block;
   }
 
   .imagetop2 {
-    display: none;
+    display: block;
   }
 
   .popup {
