@@ -171,7 +171,7 @@ body {
 .stamp {
   position: absolute;
   left: 135px;
-  top: 110px;
+  top: 230px;
   right: auto;
   bottom: auto;
   z-index: 2;
@@ -642,6 +642,10 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
+  .stamp {
+    top: 250px;
+  }
+
   .paragraph-description {
     max-width: 50ch;
   }
