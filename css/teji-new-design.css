@@ -20,10 +20,10 @@ body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -91,15 +91,15 @@ body {
   display: flex;
   width: 100vw;
   height: 50vh;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -286,25 +286,8 @@ body {
   position: relative;
   top: auto;
   z-index: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 75vw;
-  height: 50vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  width: 1000px;
+  height: 500px;
 }
 
 .bottomwrapper {
@@ -729,7 +712,7 @@ body {
   }
 
   .html-embed {
-    top: 60px;
+    top: 150px;
   }
 
   .imgtop1 {
@@ -774,8 +757,8 @@ body {
   }
 
   .html-embed {
-    width: 80vw;
-    height: 60vh;
+    width: 541px;
+    height: 233px;
   }
 
   .absoluteright-center {
@@ -847,13 +830,13 @@ body {
   }
 
   .html-embed {
-    width: 80vw;
-    height: 60vh;
+    width: 541px;
+    height: 233px;
   }
 
   .popup {
     bottom: auto;
-    height: 88vh;
+    height: 80vh;
   }
 
   .rightpopup {
