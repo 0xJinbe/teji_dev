@@ -352,8 +352,25 @@ body {
 
 .rightpopup {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .leftpopup {
@@ -385,16 +402,21 @@ body {
 }
 
 .heading {
+  margin-top: 10px;
+  margin-bottom: 0px;
   color: #000;
   text-transform: uppercase;
 }
 
 .subheading {
+  margin-top: 0px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 
 .price {
+  margin-top: 0px;
+  margin-bottom: 20px;
   color: #000;
   text-transform: uppercase;
 }
@@ -500,17 +522,17 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  height: 40%;
-  padding-right: 20px;
+  height: 50%;
+  padding-right: 5px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -608,6 +630,14 @@ body {
     display: none;
   }
 
+  .subheading {
+    margin-bottom: 40px;
+  }
+
+  .price {
+    margin-bottom: 40px;
+  }
+
   .paragraph {
     max-width: 40ch;
     text-align: center;
@@ -651,11 +681,24 @@ body {
   }
 
   .heading {
+    margin-bottom: 0px;
     font-size: 28px;
   }
 
+  .subheading {
+    margin-bottom: 100px;
+  }
+
+  .div-block {
+    width: 30%;
+  }
+
   .headingnumbers {
-    font-size: 28px;
+    font-size: 3em;
+  }
+
+  .bold-text-4 {
+    font-size: 18px;
   }
 }
 
