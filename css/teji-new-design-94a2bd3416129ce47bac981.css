@@ -893,10 +893,17 @@ body {
 
   .newpopup {
     width: 80vw;
+    height: 75vh;
   }
 
   .range-subwrapper {
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .newpopup {
+    height: 80vh;
   }
 }
 
