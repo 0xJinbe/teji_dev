@@ -625,7 +625,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 55vh;
+  height: 60vh;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -647,7 +647,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
