@@ -896,6 +896,10 @@ body {
     height: 75vh;
   }
 
+  .upperpopupwrapper {
+    height: 25%;
+  }
+
   .range-subwrapper {
     margin-top: 0px;
   }
@@ -904,6 +908,10 @@ body {
 @media screen and (min-width: 1440px) {
   .newpopup {
     height: 80vh;
+  }
+
+  .upperpopupwrapper {
+    height: 30%;
   }
 }
 
