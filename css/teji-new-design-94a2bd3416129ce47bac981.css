@@ -646,7 +646,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 20%;
+  height: 20vh;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -965,7 +965,7 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 25%;
+    height: 20vh;
   }
 
   .range-subwrapper {
@@ -993,7 +993,7 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 25%;
+    height: 20vh;
   }
 
   .sucesspopup {
@@ -1012,7 +1012,7 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 25%;
+    height: 20vh;
   }
 
   .sucesspopup {
