@@ -647,7 +647,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: auto;
+  height: 15vh;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
