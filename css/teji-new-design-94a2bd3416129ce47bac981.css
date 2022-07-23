@@ -1198,7 +1198,15 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 30%;
+    height: auto;
+  }
+
+  .pricediv {
+    position: relative;
+    left: auto;
+    top: 0%;
+    right: 50px;
+    bottom: 0%;
   }
 
   .image {
@@ -1296,7 +1304,7 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 15%;
+    height: auto;
   }
 
   .headingdiv {
