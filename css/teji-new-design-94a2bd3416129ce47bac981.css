@@ -813,7 +813,7 @@ body {
   bottom: auto;
   display: none;
   width: 90vw;
-  height: 70vh;
+  height: 90vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1100,7 +1100,7 @@ body {
   .sucesspopup {
     bottom: auto;
     width: 90vw;
-    height: 80vh;
+    height: 90vh;
   }
 
   .heading-upper-sucess {
@@ -1225,7 +1225,7 @@ body {
   .sucesspopup {
     bottom: auto;
     overflow: hidden;
-    height: 85vh;
+    height: 90vh;
   }
 
   .sucesswrapper {
@@ -1351,7 +1351,7 @@ body {
   .sucesspopup {
     bottom: auto;
     width: 95vw;
-    height: 85vh;
+    height: 90vh;
   }
 
   .sucesswrapper {
