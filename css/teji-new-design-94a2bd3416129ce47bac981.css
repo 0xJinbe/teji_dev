@@ -594,7 +594,10 @@ body {
   top: auto;
   right: auto;
   bottom: auto;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 90vw;
   height: 70vh;
   -webkit-box-orient: vertical;
@@ -634,6 +637,7 @@ body {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  border-bottom: 10px solid #000;
 }
 
 .upperpopupwrapper {
@@ -799,10 +803,7 @@ body {
   top: auto;
   right: auto;
   bottom: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 90vw;
   height: 70vh;
   -webkit-box-orient: vertical;
