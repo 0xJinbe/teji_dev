@@ -647,10 +647,10 @@ body {
   display: flex;
   width: 100%;
   height: 15vh;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   border-bottom: 10px solid #000;
 }
 
@@ -759,7 +759,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: auto;
+  height: 100%;
   max-width: 100%;
   padding-bottom: 20px;
   -webkit-box-pack: start;
