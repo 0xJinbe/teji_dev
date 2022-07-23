@@ -648,7 +648,7 @@ body {
   width: 100%;
   height: auto;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -973,7 +973,7 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 20vh;
+    height: auto;
   }
 
   .range-subwrapper {
@@ -1001,7 +1001,7 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 20vh;
+    height: auto;
   }
 
   .sucesspopup {
@@ -1020,7 +1020,7 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 20vh;
+    height: auto;
   }
 
   .sucesspopup {
