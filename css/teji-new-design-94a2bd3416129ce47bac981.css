@@ -784,12 +784,16 @@ body {
   text-transform: uppercase;
 }
 
+.bold-text-5 {
+  line-height: 2;
+}
+
 .heading-upper {
   margin-top: 10px;
   margin-bottom: 0px;
   color: #000;
   font-size: 3.5em;
-  line-height: 1;
+  line-height: 2;
   text-transform: uppercase;
 }
 
