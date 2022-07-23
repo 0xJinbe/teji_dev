@@ -759,7 +759,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 95%;
+  max-width: 100%;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
