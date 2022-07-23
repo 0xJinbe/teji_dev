@@ -811,9 +811,12 @@ body {
   top: auto;
   right: auto;
   bottom: auto;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 90vw;
-  height: 90vh;
+  height: 80vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -910,6 +913,15 @@ body {
   margin-bottom: 0px;
   color: #000;
   font-size: 1em;
+  text-transform: uppercase;
+}
+
+.headingsucesspopup {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #000;
+  font-size: 10em;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -1100,10 +1112,14 @@ body {
   .sucesspopup {
     bottom: auto;
     width: 90vw;
-    height: 90vh;
+    height: 80vh;
   }
 
   .heading-upper-sucess {
+    font-size: 8em;
+  }
+
+  .headingsucesspopup {
     font-size: 8em;
   }
 }
@@ -1225,7 +1241,7 @@ body {
   .sucesspopup {
     bottom: auto;
     overflow: hidden;
-    height: 90vh;
+    height: 85vh;
   }
 
   .sucesswrapper {
@@ -1233,7 +1249,11 @@ body {
   }
 
   .heading-upper-sucess {
-    font-size: 1.5em;
+    font-size: 6em;
+  }
+
+  .headingsucesspopup {
+    font-size: 6em;
   }
 }
 
@@ -1351,7 +1371,7 @@ body {
   .sucesspopup {
     bottom: auto;
     width: 95vw;
-    height: 90vh;
+    height: 85vh;
   }
 
   .sucesswrapper {
@@ -1364,7 +1384,16 @@ body {
   }
 
   .heading-2 {
-    font-size: 28px;
+    font-size: 1.5em;
+  }
+
+  .heading-3 {
+    font-size: 1em;
+  }
+
+  .headingsucesspopup {
+    margin-bottom: 0px;
+    font-size: 3em;
   }
 }
 
