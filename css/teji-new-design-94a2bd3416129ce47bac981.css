@@ -894,6 +894,10 @@ body {
   .newpopup {
     width: 80vw;
     height: 75vh;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 
   .upperpopupwrapper {
@@ -911,16 +915,17 @@ body {
   }
 
   .upperpopupwrapper {
-    height: 30%;
+    height: 25%;
   }
 }
 
 @media screen and (min-width: 1920px) {
+  .newpopup {
+    width: 70vw;
+  }
+
   .upperpopupwrapper {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    height: 25%;
   }
 }
 
@@ -978,7 +983,6 @@ body {
 
   .newpopup {
     bottom: auto;
-    overflow: hidden;
     width: 90vw;
     height: 80vh;
   }
