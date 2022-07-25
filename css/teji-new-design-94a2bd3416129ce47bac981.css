@@ -1254,6 +1254,10 @@ body {
 @media screen and (max-width: 479px) {
   .centerwrapper {
     top: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .absoluteleft-bottom {
@@ -1271,8 +1275,12 @@ body {
     justify-content: flex-start;
   }
 
+  .officialtejiproduct {
+    margin-bottom: 15px;
+  }
+
   .html-embed {
-    top: 20px;
+    top: auto;
     width: 541px;
     height: 233px;
   }
@@ -1321,7 +1329,7 @@ body {
   .newpopup {
     bottom: auto;
     width: 95vw;
-    height: 85vh;
+    height: 95vh;
   }
 
   .upperpopupwrapper {
