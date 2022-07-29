@@ -542,7 +542,7 @@ body {
   color: #000;
 }
 
-.subheadingnumbers {
+.subheadingmintquantitytext {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 2.5em;
@@ -594,7 +594,10 @@ body {
   top: auto;
   right: auto;
   bottom: auto;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 90vw;
   height: 90vh;
   -webkit-box-orient: vertical;
@@ -1077,7 +1080,7 @@ body {
     max-width: 35ch;
   }
 
-  .subheadingnumbers {
+  .subheadingmintquantitytext {
     margin-bottom: 20px;
   }
 
