@@ -482,6 +482,10 @@ body {
   text-transform: uppercase;
 }
 
+.buttonconnectwallet:hover {
+  background-color: #ff0882;
+}
+
 .socialiconswrapper {
   position: absolute;
   left: auto;
