@@ -613,7 +613,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 10px solid #000;
+  border: 0px solid #000;
   border-radius: 0px;
   background-color: #f6ff01;
   opacity: 1;
@@ -638,7 +638,7 @@ body {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  border-bottom: 0px solid #000;
+  border: 10px solid #000;
 }
 
 .upperpopupwrapper {
@@ -654,7 +654,9 @@ body {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  border-bottom: 10px solid #000;
+  border-style: solid;
+  border-width: 10px 10px 0px;
+  border-color: #000;
 }
 
 .headingdiv {
@@ -859,7 +861,7 @@ body {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  border-bottom: 10px solid #000;
+  border-bottom: 0px solid #000;
 }
 
 .heading-upper-sucess {
